@@ -1,5 +1,5 @@
 var a = 67;
-
+var a = 50;
 let b = 68;
 
 const c = 78;
