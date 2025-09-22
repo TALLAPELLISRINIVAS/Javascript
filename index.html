@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        var b = 50;
-        console.log(b);
+        function demo() {
+            document.getElementById("name").innerHTML = "Hello Karimnagar"
+
+        }
     </script>
-
-    <script src="function.js" />
-
 </head>
 
 <body>
-
+    <h1 id="name">
+        Hello Nithin!</h1>
+    <br>
+    <button onclick="demo()">Change Text</button>
 </body>
 
 </html>
